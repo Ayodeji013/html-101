@@ -59,16 +59,7 @@ body{
     text-align: center;
     padding-right: 10px;
 }
-.formcontent{
-    width: 55%;
-    height: 100vh;
-    overflow-y: auto;
-}
-.signin_text{
-    text-align: right;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+
 .form_container{
     width: 90%;
     padding: 50px 30px;
@@ -97,14 +88,58 @@ body{
     list-style: none;
     font-family:   sans-serif; 
 }
+
+.button{
+    width: 100%;
+    padding: 16px 0px;
+    background: rgb(106, 111, 245);
+    color: rgb(255, 255, 255);
+    font-family: EuclidRegular, sans-serif;
+    display: flex;
+    gap: 10px;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.form_container{
+    width: 55%;
+    height: 100vh;
+    
+}
+.form_content{
+    width: 90%;
+    padding: 70px 30px;
+}
 .style_formrow{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-}
-.label_hear{
+    gap: 25px;}
+   
+   .style_hear{
+    flex: auto;
+    max-width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     min-height: 32px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    border-radius: 6px;
+    padding: 16px 24px 16px 10px;
+   .form_row2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px
+   }
+   .signin_text{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;}
 }
